@@ -1,0 +1,30 @@
+.bannerBgImage{
+    height: 100vh;
+    background: url("/image/bannerimage.jpg");
+    background-size: cover;
+    position: relative;
+}
+.bannerText{
+    text-align: right;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+.bannerTitle{
+    font-size: 4rem;
+}
+.bannerDesc{
+    font-size: 2rem;
+}
+.card{
+    cursor: pointer;
+}
+.card:hover{
+    background-color: rgb(201, 169, 61);
+    border: 5px solid yellowgreen;
+}
+.card-img-top{
+    height: 50vh;
+}
